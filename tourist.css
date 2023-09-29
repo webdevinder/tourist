@@ -1,0 +1,539 @@
+body {
+  margin: 0;
+}
+.font-f {
+  font-family: "Ubuntu", sans-serif;
+}
+.clr {
+  clear: both;
+}
+input {
+  outline: none;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.float-r {
+  float: right;
+}
+.any-a-light a {
+  color: white;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+.container-fluid {
+  width: 100%;
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+.ctr-text {
+  text-align: center;
+}
+.prime-clr-text {
+  color: #ff6363;
+}
+.sec-clr-text {
+  color: #2d394b;
+}
+.bg-light {
+  background: white;
+}
+.row {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  width: 100%;
+}
+.w-180 {
+  width: 180px;
+}
+.col-20 {
+  width: 20%;
+}
+.p-30 {
+  padding: 30px;
+}
+.wp-55 {
+  width: 55%;
+}
+.icon-font-28 {
+  font-size: 28px;
+}
+.mt-75 {
+  margin-top: 75px;
+}
+.wp-20 {
+  width: 20%;
+}
+.wp-60 {
+  width: 60%;
+}
+.prime-bg {
+  background: #ff6363;
+}
+.py-15 {
+  padding: 15px 0;
+}
+.mt-50 {
+  margin: 50px 0 0 0;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mx-10 {
+  margin: 0 10px;
+}
+.inline {
+  display: inline;
+}
+.in-block {
+  display: inline-block;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.m-10 {
+  margin: 10px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.px-15 {
+  padding: 0 15px;
+}
+.px-20 {
+  padding: 0 20px;
+}
+.py-35 {
+  padding: 35px 0;
+}
+.p-60 {
+  padding: 60px;
+}
+.p-20 {
+  padding: 20px;
+}
+.pt-25-pr-15 {
+  padding: 25px 15px 0 0;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.py-20-px-30 {
+  padding: 20px 30px;
+}
+.py-50-px-30 {
+  padding: 50px 30px;
+}
+.py-20 {
+  padding: 20px 0;
+}
+.py-100 {
+  padding: 100px 0;
+}
+.col-30 {
+  width: 30%;
+}
+.col-23 {
+  width: 23%;
+}
+.col-15 {
+  width: 15%;
+}
+.col-50 {
+  width: 50%;
+}
+.col-33 {
+  width: 33%;
+}
+.col-70 {
+  width: 70%;
+}
+.h-6h {
+  height: 600px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.text-light {
+  color: white;
+}
+.add a:hover,
+.tel a:hover,
+.email a:hover {
+  color: #2d394b;
+}
+.social ul li {
+  padding: 0 10px;
+}
+.social ul li i:hover {
+  color: #2d394b;
+}
+.navs ul li {
+  padding: 0 10px;
+}
+.navs ul li a {
+  color: black;
+}
+.navs ul li a:hover {
+  color: #ff6363;
+}
+.btn-booknow {
+  background: #ff6363;
+  color: white;
+  border-radius: 30px;
+  padding: 15px 45px;
+  border: none;
+  position: absolute;
+  top: 66px;
+  right: 168px;
+}
+.btn-booknow:hover {
+  background: white;
+  color: #ff6363;
+  border: 1px solid #ff6363;
+}
+.top-bg-img {
+  background: url("images/slider-2.jpg");
+  height: 700px;
+  background-size: 100% 100%; /* w/h */
+}
+.shadow-over-img {
+  height: 700px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.p-bar::before {
+  content: "";
+}
+.head-one {
+  font-size: 32px;
+  letter-spacing: 2px;
+  position: relative;
+  top: 140px;
+}
+.head-two {
+  font-size: 65px;
+  letter-spacing: 2px;
+  margin: 0;
+  position: relative;
+  top: 150px;
+}
+.head-three {
+  position: relative;
+  top: 160px;
+  font-size: 25px;
+}
+.btn-sat,
+.btn-am {
+  position: relative;
+  top: 190px;
+  border-radius: 30px;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  margin: 0 10px;
+}
+.btn-sat {
+  background: #ff6363;
+  border: 1px solid #ff6363;
+}
+.btn-am {
+  background: transparent;
+  border: 1px solid white;
+}
+.btn-sat:hover {
+  background: transparent;
+  border: 1px solid white;
+}
+.btn-am:hover {
+  background: #ff6363;
+  border: 1px solid #ff6363;
+}
+.user-deets input {
+  width: 200px;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 5px;
+  border: 1px solid rgba(183, 177, 184, 0.907);
+}
+.user-deets input:focus {
+  outline: 1px solid skyblue;
+}
+.btn-search {
+  position: relative;
+  top: 19px;
+  border-radius: 30px;
+  background-color: #ff6363;
+  color: white;
+  padding: 13px 69px;
+  border: none;
+}
+.aside-btns button {
+  margin: 15px 0;
+  padding: 15px 65px 15px 5px;
+  border-radius: 30px;
+  border: 1px solid #ff6363;
+  background: #ff6363;
+  color: white;
+  width: 200px;
+}
+.aside-btns button:hover {
+  background: white;
+  color: #ff6363;
+  border: 1px solid #ff6363;
+}
+.user-deets {
+  box-shadow: 0 0 5px 3px rgba(214, 206, 206, 0.616);
+  border-radius: 40px;
+}
+.card-img {
+  height: 250px;
+  width: 100%;
+}
+.btn-details {
+  background: #ff6363;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 30px;
+  border: 1px solid #ff6363;
+}
+.btn-details:hover {
+  background: white;
+  color: #ff6363;
+  border: 1px solid #ff6363;
+}
+.rating {
+  position: relative;
+  top: 10px;
+}
+.card-head:hover {
+  color: #ff6363;
+}
+.clr-grey {
+  color: grey;
+}
+.card-bdr-shadow {
+  box-shadow: 0px 0px 5px 2px rgba(245, 224, 224, 0.904);
+}
+.ctr-cont {
+  justify-content: center;
+}
+.bg-img {
+  background-image: url(images/countdown-bg.jpg);
+  height: 500px;
+  background-attachment: fixed;
+}
+.shadow-over-img-2 {
+  height: 500px;
+  background: rgba(18, 47, 109, 0.7);
+}
+.big-p-text {
+  font-size: 65px;
+  margin: 0;
+}
+.btn-booknow-2 {
+  padding: 20px 50px;
+  background: #ff6363;
+  color: white;
+  border-radius: 30px;
+  position: relative;
+  top: 6px;
+  border: none;
+}
+.btn-booknow-2:hover {
+  background: white;
+  color: #ff6363;
+}
+.counts {
+  background: rgba(234, 85, 85, 0.8);
+  width: 125px;
+  height: 125px;
+  border-radius: 20px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.l-card-img {
+  height: 600px;
+}
+.font-50 {
+  font-size: 50px;
+}
+.btn-moredeets {
+  background: #ff6363;
+  padding: 15px 50px;
+  color: white;
+  border-radius: 30px;
+  border: 2px solid #ff6363;
+}
+.btn-booknow-blue {
+  background: #0d2352;
+  border-radius: 30px;
+  padding: 15px 40px;
+  color: white;
+  margin: 0 15px;
+  border: 2px solid #0d2352;
+}
+.btn-moredeets:hover {
+  background: white;
+  color: #ff6363;
+  border: 2px solid #ff6363;
+}
+.btn-booknow-blue:hover {
+  background: white;
+  color: #ff6363;
+  border: 2px solid #ff6363;
+}
+.bg-img-2 {
+  background: url(images/feature-bg.jpg) no-repeat;
+  height: 700px;
+  background-size: 100% 75%;
+}
+.shadow-over-img-3 {
+  height: 75%;
+  background: rgba(19, 21, 94, 0.7);
+}
+/* .card-over-img:hover {
+  background: #ff6363;
+  color: white;
+} */
+.card-over-img {
+  box-shadow: 0 0 5px 2px rgba(223, 200, 199, 0.5);
+}
+.btn-readmore {
+  background: #ff6363;
+  color: white;
+  border: 1px solid #ff6363;
+  border-radius: 30px;
+  padding: 10px 40px;
+}
+.btn-readmore:hover {
+  background: white;
+  color: #ff6363;
+  border: 1px solid #ff6363;
+}
+.long-imgs {
+  height: auto;
+  width: 100%;
+}
+.review {
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px rgb(241, 211, 211);
+}
+.review:hover {
+  box-shadow: 0 0 5px 2px rgb(239, 136, 136);
+}
+.space-letter {
+  letter-spacing: 1px;
+}
+.blog-img {
+  height: auto;
+  width: 100%;
+}
+.btn-learnmore {
+  background: white;
+  color: #2d394b;
+  border: 1px solid #2d394b;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+.btn-learnmore:hover {
+  background: #ff6363;
+  color: white;
+  border: 1px solid #ff6363;
+}
+.blogs {
+  box-shadow: 0px 0px 5px 2px rgba(245, 224, 224, 0.904);
+}
+.bg-img-3 {
+  background: url(images/newsletter-bg.jpg);
+  height: 450px;
+  background-size: 100% 100%;
+}
+.shadow-over-img-4 {
+  background: rgba(15, 33, 78, 0.7);
+  height: 450px;
+}
+.submit-bar {
+  width: 650px;
+  height: 60px;
+  border-radius: 30px;
+  margin: 50px auto;
+}
+.submit-in {
+  height: 60px;
+  outline: none;
+  width: 475px;
+  border: none;
+  padding: 0 0 0 30px;
+  border-radius: 30px;
+  color: #2d394b;
+}
+.btn-submit {
+  background: #ff6363;
+  color: white;
+  padding: 15px 58px;
+  border-radius: 30px;
+  border: none;
+}
+.btn-submit:hover {
+  background: #0d2352;
+  color: white;
+}
+.clr-blue {
+  background: #0d2352;
+}
+.quick-links {
+  display: block;
+}
+.quick-links li {
+  padding-bottom: 20px;
+}
+.quick-links li a {
+  color: white;
+}
+.follow i:hover {
+  color: white;
+}
+.quick-links li a:hover {
+  color: #ff6363;
+}
+.ftr-bg-clr {
+  background: #182541;
+}
+.ftr-navs {
+  padding-top: 16px;
+}
+.ftr-navs li {
+  padding-right: 15px;
+}
+.ftr-navs li a:hover {
+  color: #ff6363;
+}
+.email:hover {
+  color: #ff6363;
+}
